@@ -12,6 +12,9 @@
 		007D74CD206454AE004F8BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D74CB206454AE004F8BCB /* Main.storyboard */; };
 		007D74CF206454AE004F8BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D74CE206454AE004F8BCB /* Assets.xcassets */; };
 		007D74D2206454AE004F8BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007D74D0206454AE004F8BCB /* LaunchScreen.storyboard */; };
+		007D74DA20645596004F8BCB /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74D920645596004F8BCB /* ApiClient.swift */; };
+		007D74DC20645629004F8BCB /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74DB20645629004F8BCB /* Secrets.swift */; };
+		007D74DE20645C3C004F8BCB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74DD20645C3C004F8BCB /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		007D74CE206454AE004F8BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007D74D1206454AE004F8BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007D74D3206454AE004F8BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007D74D920645596004F8BCB /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		007D74DB20645629004F8BCB /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		007D74DD20645C3C004F8BCB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				007D74C7206454AE004F8BCB /* AppDelegate.swift */,
 				007D74C9206454AE004F8BCB /* ViewController.swift */,
+				007D74D920645596004F8BCB /* ApiClient.swift */,
+				007D74DD20645C3C004F8BCB /* Video.swift */,
+				007D74DB20645629004F8BCB /* Secrets.swift */,
 				007D74CB206454AE004F8BCB /* Main.storyboard */,
 				007D74CE206454AE004F8BCB /* Assets.xcassets */,
 				007D74D0206454AE004F8BCB /* LaunchScreen.storyboard */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				007D74CA206454AE004F8BCB /* ViewController.swift in Sources */,
+				007D74DC20645629004F8BCB /* Secrets.swift in Sources */,
 				007D74C8206454AE004F8BCB /* AppDelegate.swift in Sources */,
+				007D74DA20645596004F8BCB /* ApiClient.swift in Sources */,
+				007D74DE20645C3C004F8BCB /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
